@@ -1,12 +1,13 @@
-# 解开下方注释即可正常推送天气邮件
-name: 'deploy success'
+name: GitHub Actions Demo
 on: push
 jobs:
-  bot:
+  Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - name: 'success'
-        uses: echo "hello world"
+      - run: echo "🎉 hello"
+      - run: echo "🐧 world"
+      - run: echo "🔎 push success"
+# 解开下方注释并把上方内容注释即可正常推送天气邮件
 # name: 'GitHub Actions Weather Bot'
 # on:
 #   push:
