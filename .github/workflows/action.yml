@@ -1,4 +1,12 @@
 # 解开下方注释即可正常推送天气邮件
+name: 'deploy success'
+on: push
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'success'
+        uses: echo "hello world"
 # name: 'GitHub Actions Weather Bot'
 # on:
 #   push:
